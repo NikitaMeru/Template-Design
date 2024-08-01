@@ -1,0 +1,98 @@
+/* Template7.css */
+
+.cv-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 29cm;
+  height: 21cm;
+  margin: 0 auto;
+  padding: 20px;
+  transform: scale(0.3);
+  transform-origin: top left;
+  
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.contact-info {
+  margin: 0;
+}
+
+.contact-info a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.education-item, .project-item {
+  margin-bottom: 10px;
+}
+
+.education-item h3, .project-item h3 {
+  margin: 0;
+}
+
+.dates {
+  font-style: italic;
+  color: #666;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

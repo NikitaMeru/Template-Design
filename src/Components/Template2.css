@@ -1,0 +1,64 @@
+.cv-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 29cm;
+  height: 21cm;
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.header p {
+  margin: 10px 0;
+}
+
+.header a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.entry {
+  margin-bottom: 20px;
+}
+
+.entry-date {
+  font-weight: bold;
+}
+
+.entry-details {
+  margin-top: 5px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}

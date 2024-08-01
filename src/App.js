@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Resume from './Components/Resume';
+import Template2 from './Components/Template2';
+import ResumeData from './Components/ResumeData'; 
+import Template3 from './Components/Template3';
+import Template4 from './Components/Template4';
+import Template5 from './Components/Template5';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Router>
+      <Routes>
+       <Route path="/resume" element={<Resume data={ResumeData} />} />
+        <Route path="/template2" element={<Template2 data={ResumeData} />} />
+        <Route path="/" element={<Resume data={ResumeData} />} /> 
+        <Route path="/template3" element={<Template3 data={ResumeData} />} />
+        <Route path="/template4" element={<Template4 data={ResumeData}/>} />
+        <Route path="/template5" element={<Template5 data={ResumeData}/>} />
+       
+      </Routes>
+    </Router>
     </div>
   );
 }

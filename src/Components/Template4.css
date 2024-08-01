@@ -1,0 +1,100 @@
+/* General styles */
+.cv-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 29cm;
+    height: 21cm;
+    margin: 0 auto;
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+  
+  .header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .role-badge {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .header p {
+    margin: 10px 0;
+  }
+  
+  .header a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-nxt {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .btn-nxt:hover {
+    background-color: #0056b3;
+  }
+  
+  .intro, .experience, .education, .additional-activity, .languages {
+    margin-bottom: 20px;
+  }
+  
+  .experience, .education, .additional-activity, .languages {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
