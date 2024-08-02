@@ -6,8 +6,8 @@
     max-width: 29cm;
     height: 21cm;
     margin: 0 auto;
-    transform: scale(0.5);
     transform-origin: top left;
+    min-width: 800px;
   }
   
   .header {
@@ -98,3 +98,6 @@
     text-align: center;
   }
   
+  .name{
+    font-size: 20px;
+  }

@@ -33,7 +33,7 @@ const Template4 = () => {
         Next
       </button>
       <header className="header">
-        <h1 className="name">{firstname} {lastname}</h1>
+        <h1 className="name" >{firstname} {lastname}</h1>
         <p className="contact-info">
           Email: <a className='mail' href={`mailto:${email}`}>{email}</a> | 
           Phone: {phone} | 

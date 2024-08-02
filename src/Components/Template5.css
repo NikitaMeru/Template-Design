@@ -3,11 +3,10 @@
 .cv-container {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  max-width: 29cm;
+  max-width: 800px;
   height: 21cm;
   margin: 0 auto;
   padding: 20px;
-  transform: scale(0.3);
   transform-origin: top left;
   
 }

@@ -3,18 +3,19 @@
   line-height: 1.6;
   margin: 0 auto;
   padding: 20px;
-  max-width: 29cm;
+  max-width: 800px;
   height: 21cm;
-  transform: scale(0.5);
-  transform-origin: top left;
+   transform-origin: top left;
+   font-family: 'Roboto', sans-serif; /* General font style */
 }
 
 .header {
   text-align: center;
+  font-family: 'Playfair Display', serif; /* Stylish font for header */
 }
 
 .header h1 {
-  font-size: 2em;
+  font-size: 10px;
   margin: 0;
 }
 
@@ -35,6 +36,8 @@ h2 {
   border-bottom: 2px solid #007BFF;
   padding-bottom: 5px;
   margin-bottom: 10px;
+  font-size: 8px;
+  font-family: 'Playfair Display', serif; /* Stylish font for section headers */
 }
 
 .entry {
@@ -43,15 +46,18 @@ h2 {
 
 .entry-date {
   font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* Consistent font for dates */
 }
 
 .entry-details {
   margin-top: 5px;
+  font-family: 'Roboto', sans-serif; /* Consistent font for details */
 }
 
 ul {
   margin: 0;
   padding-left: 20px;
+  font-family: 'Roboto', sans-serif; /* Consistent font for lists */
 }
 
 li {
@@ -61,4 +67,29 @@ li {
 .footer {
   text-align: center;
   margin-top: 20px;
+  font-family: 'Roboto', sans-serif; /* Consistent font for footer */
+}
+
+.experience h2{
+  font-size: 17px;
+}
+
+.education h2{
+  font-size: 17px;
+}
+
+.skills h2{
+  font-size: 17px;
+}
+
+.certifications h2{
+  font-size: 17px;
+}
+
+.languages h2{
+  font-size: 17px;
+}
+
+.contact-info{
+  font-size: 17px;
 }

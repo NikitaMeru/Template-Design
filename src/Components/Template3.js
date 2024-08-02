@@ -36,7 +36,7 @@ const Template3 = () => {
         <h1>{firstname} {lastname}</h1>
         <p>{profession}</p>
         <div className="contact-info">
-          <p className='contact'>CONTACT</p>
+          
           <ul>
             <li style={{color:'white'}}>{city}, {country}</li>
             <li style={{color:'white'}}>{phone}</li>

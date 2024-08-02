@@ -1,6 +1,7 @@
 import React from 'react';
 import './Template5.css'; // Import your CSS file for styling
 import ResumeData from './ResumeData'; // Import ResumeData
+import { useNavigate } from 'react-router-dom';
 
 const Template5 = () => {
   const {
@@ -18,8 +19,17 @@ const Template5 = () => {
     languages
   } = ResumeData;
 
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/template6');
+  };
+
   return (
     <div className="cv-container">
+      <button className='btn-nxt' onClick={handleClick}>
+        Next
+      </button>
       <header className="header">
         <h1 className="name">{firstname} {lastname}</h1>
         <p className="contact-info">

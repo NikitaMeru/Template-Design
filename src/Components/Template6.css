@@ -1,0 +1,136 @@
+/* Template6.css */
+
+/* General container styling */
+.container {
+  max-width: 1200px; /* Increased width for a more spacious layout */
+  margin: 0 auto; /* Center the container */
+  padding: 30px; /* More padding for better spacing */
+  font-family: Arial, sans-serif; /* Font family */
+  color: #333; /* Text color */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Button styling */
+.btn-next {
+  display: inline-block;
+  padding: 12px 24px; /* Increased padding for better appearance */
+  font-size: 18px; /* Font size */
+  color: #fff; /* Text color */
+  background-color: #007BFF; /* Button color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  text-align: center; /* Center text */
+  margin-bottom: 30px; /* Space below button */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.btn-next:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Header styling */
+.header {
+  text-align: center; /* Center align text */
+  margin-bottom: 50px; /* Space below header */
+}
+
+.header .name {
+  font-size: 36px; /* Font size for name */
+  font-weight: bold; /* Bold text */
+  margin: 0; /* Remove default margin */
+}
+
+.header .profession {
+  font-size: 24px; /* Font size for profession */
+  font-style: italic; /* Italic text */
+  color: #555; /* Slightly lighter text color */
+  margin: 5px 0; /* Margin above and below */
+}
+
+.header .contact-info {
+  font-size: 18px; /* Font size for contact info */
+  margin: 0; /* Remove default margin */
+}
+
+.header .contact-info a {
+  color: #007BFF; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.header .contact-info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Section styling */
+.education, .experience, .skills, .certifications {
+  margin-bottom: 50px; /* Space below each section */
+}
+
+.education h2, .experience h2, .skills h2, .certifications h2 {
+  font-size: 28px; /* Font size for section titles */
+  border-bottom: 3px solid #007BFF; /* Bottom border for section titles */
+  padding-bottom: 10px; /* Padding below the text */
+  margin-bottom: 20px; /* Space below border */
+}
+
+.education-item, .experience-item {
+  margin-bottom: 30px; /* Space below each item */
+}
+
+.education-item h3, .experience-item h3 {
+  font-size: 22px; /* Font size for item titles */
+  margin: 0; /* Remove default margin */
+  color: #333; /* Dark text color */
+}
+
+.education-item p, .experience-item p {
+  margin: 5px 0; /* Margin above and below paragraphs */
+  color: #666; /* Lighter text color */
+}
+
+.skills-section h3 {
+  font-size: 20px; /* Font size for skill section titles */
+  margin-top: 0; /* Remove top margin */
+}
+
+.skills-section ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+}
+
+.skills-section ul li {
+  margin: 8px 0; /* Space between skill items */
+}
+
+.certifications ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+}
+
+.certifications ul li {
+  margin: 8px 0; /* Space between certification items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .header .name {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .header .profession {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .header .contact-info {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .skills-section h3, .education-item h3, .experience-item h3 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
